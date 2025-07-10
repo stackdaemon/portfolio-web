@@ -1,0 +1,31 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* 1st step */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+}
+.nav_title {
+  font-size: 34px;
+  font-weight: 800;
+  color: #4e47ff;
+  
+}
+.btn_nav {
+  background-color: #4e47ff;
+  color: white;
+  padding: 14px 33px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 21px;
+  border: none;
+}
+.btn_nav:hover{
+  background-color:#5f3939;
+}
