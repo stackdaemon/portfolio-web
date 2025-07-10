@@ -92,3 +92,41 @@ nav {
 .action_img{
   border-radius: 48px;
 }
+/* productive section */
+.productive_container{
+  border-radius: 10px;
+  width: 1140px;
+  height: 306px;
+  margin: 116px auto;
+}
+.Productive_bg{
+  background-color:#dad9fc ;
+}
+.Productive_title{
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  padding: 45px 142px ;
+  margin-bottom: -87px;
+  
+}
+.productive_items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.item_title{
+  font-weight: bold;
+  font-size: 80px;
+  margin-bottom: -14px;
+  color: #4E47FF;
+  
+}
+.item_description{
+  font-size: 20px;
+  color: #242330;
+  letter-spacing: 1.5px;
+}
+.produc_item{
+  align-items: center;
+}
