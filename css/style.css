@@ -29,3 +29,17 @@ nav {
 .btn_nav:hover{
   background-color:#5f3939;
 }
+/* baneer sept */
+.header_bg{
+  background-image: url('../Assets/Hero-bg.png');
+ height: 700px;
+}
+.banner{
+  text-align: center;
+  margin: 200px 267px;
+  line-height: 55px;
+}
+.banner_title{
+  font-size: 65px;
+  font-weight:bold;
+}
