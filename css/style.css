@@ -41,12 +41,6 @@ nav {
   background-color: #5f3939;
 }
 
-
-
-
-
-
-
 /* baneer sept */
 .header_bg {
   background-image: url("../Assets/Hero-bg.png");
@@ -191,7 +185,7 @@ nav {
   height: 715px;
   margin: 116px auto;
 }
-.ready_group{
+.ready_group {
   padding: 71px 150px;
 }
 
@@ -215,4 +209,60 @@ nav {
   border-radius: 48px;
   height: 365px;
   width: 840px;
+}
+/* login section */
+
+.login_group {
+  margin: 100px 150px;
+  display: flex;
+  gap: 110px;
+  height: 635px;
+  width: 1405px;
+  align-items: center;
+  margin: 0px auto;
+}
+.login_title {
+  font-size: 97px;
+  font-weight: bold;
+  margin-bottom: -63px;
+}
+.login_title2 {
+  font-size: 97px;
+  font-weight: bold;
+}
+.login_label {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.login_input {
+  height: 30px;
+  width: 195px;
+  border-radius: 5px;
+  background-color: #dad9fc;
+}
+.btn_nav2 {
+  background-color: #4e47ff;
+  color: white;
+  padding: 20px 213px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 1px;
+  border: none;
+}
+.login_container input[type="text"],
+.login_container input[type="email"],
+.login_container textarea {
+  height: 70px;
+  border-radius: 10px;
+  background-color: rgb(231, 237, 253);
+  width: 495px;
+  padding: 0px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+.login_container textarea{
+  height: 111px;
 }
