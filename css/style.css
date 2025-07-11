@@ -10,7 +10,10 @@
 
   font-style: normal;
 }
+body{
+  background-color:  rgb(225, 232, 242);
 
+}
 /* 1st step */
 nav {
   display: flex;
@@ -257,7 +260,7 @@ nav {
 .login_container textarea {
   height: 70px;
   border-radius: 10px;
-  background-color: rgb(231, 237, 253);
+  background-color: rgb(255, 255, 255);
   width: 495px;
   padding: 0px 20px;
   margin-bottom: 24px;
@@ -265,4 +268,45 @@ nav {
 }
 .login_container textarea{
   height: 111px;
+}
+/* Footer section */
+.footer_conrainer{
+  background-color: #ffffff;
+  height: 428px;
+  /* width: 1440px; */
+  text-align: center;
+}
+.footer_title{
+  font-size:100px ;
+  color: #4e47ff;
+  /* padding-top: 20px; */
+  margin-bottom: 0px;
+}
+.footer_description{
+  font-size:18px ;
+  color: rgb(165, 162, 162);
+  
+  
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+footer ul li {
+  margin-right: 50px;
+}
+footer li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+   color: rgb(146, 143, 143);
+}
+.footer_group{
+ padding:22px 655px;
+}
+footer li a:hover{
+  background-color:aquamarine;
 }
