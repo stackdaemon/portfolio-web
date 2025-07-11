@@ -130,3 +130,65 @@ nav {
 .produc_item{
   align-items: center;
 }
+
+/* user feedback section */
+.group{
+  width: 367px;
+  height: 244px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 24px 22px;
+}
+.user_container{
+  width: 367px;
+  height: 245px;
+  margin-bottom: -73px;
+}
+.user_container img{
+  width: 20px ;
+  height: 20px;
+  padding: 5px;
+  
+}
+.user_title{
+  font-size: 34px;
+  margin-top: 22px;
+}
+.user_description{
+  font-size: 20px;
+  color: #3a3946;
+  margin-top: -15px;
+  
+  
+}
+
+.Reviewer_img{
+  width: 44px;
+  height: 44px;
+}
+.Reviewer_div{
+  margin-top: -15px ;
+  
+}
+.review_title{
+  margin-bottom: -14px;
+  color: rgb(122, 114, 114);
+}
+.review_subtitle{
+  color:rgb(165, 162, 162); ;
+}
+.user_reviewer{
+  display: flex;
+  gap: 25px;
+}
+.user_maintitle{
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+.user_feedback{
+  display: flex;
+  gap: 24px;
+  margin: 0px 150px;
+  justify-content: center;
+}
