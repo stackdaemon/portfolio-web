@@ -7,7 +7,7 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  
+
   font-style: normal;
 }
 
@@ -19,22 +19,11 @@ nav {
 }
 .nav_title {
   font-size: 34px;
-  font-weight:900;
+  font-weight: 900;
   color: #4e47ff;
 }
-/* .btn_nav {
-  background-color: #4e47ff;
-  color: white;
-  padding: 14px 33px;
-  font-size: 18px;
-  border-radius: 10px;
-  font-weight: bold;
-  margin: 21px;
-  border: none;
-  
 
-} */
- .btn_nav{
+.btn_nav {
   background-color: #4e47ff;
   color: white;
   padding: 14px 33px;
@@ -43,152 +32,187 @@ nav {
   font-weight: bold;
   margin: 26px;
   border: none;
- }
+}
 .btn_nav a {
   text-decoration: none;
   color: white;
 }
-.btn_nav:hover{
-  background-color:#5f3939;
+.btn_nav:hover {
+  background-color: #5f3939;
 }
+
+
+
+
+
+
+
 /* baneer sept */
-.header_bg{
-  background-image: url('../Assets/Hero-bg.png');
- height: 700px;
- 
+.header_bg {
+  background-image: url("../Assets/Hero-bg.png");
+  height: 700px;
 }
-.banner{
+.banner {
   text-align: center;
   margin: 200px 267px;
   line-height: 55px;
 }
-.banner_title{
+.banner_title {
   font-size: 65px;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 /* Action style */
-.action_containar{
+.action_containar {
   display: flex;
   justify-content: space-between;
   margin: 116px 150px;
 }
-.action_contant{
+.action_contant {
   max-width: 520px;
   line-height: 23px;
 }
-.action_contant button{
+.action_contant button {
   margin-left: 0px;
-
 }
-.action_title{
-  font-size:42px ;
+.action_title {
+  font-size: 42px;
   font-weight: bold;
 }
-.action_subtitle{
+.action_subtitle {
   font-size: 24px;
   color: #242330;
 }
-.action_img{
+.action_img {
   border-radius: 48px;
 }
 /* productive section */
-.productive_container{
+
+.productive_container {
   border-radius: 10px;
   width: 1140px;
   height: 306px;
   margin: 116px auto;
 }
-.Productive_bg{
-  background-color:#dad9fc ;
+.Productive_bg {
+  background-color: #dad9fc;
 }
-.Productive_title{
+.Productive_title {
   font-size: 38px;
   font-weight: bold;
   text-align: center;
-  padding: 45px 142px ;
+  padding: 45px 142px;
   margin-bottom: -87px;
-  
 }
-.productive_items{
+.productive_items {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.item_title{
+.item_title {
   font-weight: bold;
   font-size: 80px;
   margin-bottom: -14px;
-  color: #4E47FF;
-  
+  color: #4e47ff;
 }
-.item_description{
+.item_description {
   font-size: 20px;
   color: #242330;
   letter-spacing: 1.5px;
 }
-.produc_item{
+.produc_item {
   align-items: center;
 }
 
 /* user feedback section */
-.group{
+.group {
   width: 367px;
   height: 244px;
   background-color: whitesmoke;
   border-radius: 15px;
   padding: 24px 22px;
 }
-.user_container{
+.user_container {
   width: 367px;
   height: 245px;
   margin-bottom: -73px;
 }
-.user_container img{
-  width: 20px ;
+.user_container img {
+  width: 20px;
   height: 20px;
   padding: 5px;
-  
 }
-.user_title{
+.user_title {
   font-size: 34px;
   margin-top: 22px;
 }
-.user_description{
+.user_description {
   font-size: 20px;
   color: #3a3946;
   margin-top: -15px;
-  
-  
 }
 
-.Reviewer_img{
+.Reviewer_img {
   width: 44px;
   height: 44px;
 }
-.Reviewer_div{
-  margin-top: -15px ;
-  
+.Reviewer_div {
+  margin-top: -15px;
 }
-.review_title{
+.review_title {
   margin-bottom: -14px;
   color: rgb(122, 114, 114);
 }
-.review_subtitle{
-  color:rgb(165, 162, 162); ;
+.review_subtitle {
+  color: rgb(165, 162, 162);
 }
-.user_reviewer{
+.user_reviewer {
   display: flex;
   gap: 25px;
 }
-.user_maintitle{
+.user_maintitle {
   text-align: center;
   font-size: 42px;
   font-weight: bold;
 }
-.user_feedback{
+.user_feedback {
   display: flex;
   gap: 24px;
   margin: 0px 150px;
   justify-content: center;
+}
+/* ready to foucs section */
+.ready_bg {
+  background-color: #fbf4f4a6;
+}
+.ready_container {
+  border-radius: 10px;
+  width: 1140px;
+  height: 715px;
+  margin: 116px auto;
+}
+.ready_group{
+  padding: 71px 150px;
+}
+
+.ready_section {
+  text-align: center;
+  line-height: 10px;
+}
+.ready_title {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 71px;
+}
+.ready_subtitle {
+  font-size: 20px;
+  color: rgb(165, 162, 162);
+}
+.ready_img {
+  text-align: center;
+}
+.ready_image_raduis {
+  border-radius: 48px;
+  height: 365px;
+  width: 840px;
 }
