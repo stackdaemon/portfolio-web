@@ -1,10 +1,10 @@
-.raleway-normal {
+.raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-.inter-normal {
+.inter-normal{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 
@@ -15,18 +15,18 @@ body{
 
 }
 /* 1st step */
-nav {
+nav{
   display: flex;
   justify-content: space-between;
   margin: 0px 150px;
 }
-.nav_title {
+.nav_title{
   font-size: 34px;
   font-weight: 900;
   color: #4e47ff;
 }
 
-.btn_nav {
+.btn_nav{
   background-color: #4e47ff;
   color: white;
   padding: 14px 33px;
@@ -258,7 +258,7 @@ nav {
 .login_container input[type="text"],
 .login_container input[type="email"],
 .login_container textarea {
-  height: 70px;
+  height: 64px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   width: 495px;
@@ -273,7 +273,7 @@ nav {
 .footer_conrainer{
   background-color: #ffffff;
   height: 428px;
-  /* width: 1440px; */
+  
   text-align: center;
 }
 .footer_title{
